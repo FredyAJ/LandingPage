@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+  }
+  
+  header nav {
+    text-align: right;
+    background: rgba(64, 61, 199, 0.6);
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+  }
+  header nav a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2em 1em .5em;
+    -webkit-transition: all .3s ease-in;
+  }
+  .small {
+    padding: .5em 1em;
+  }
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .active {
+    background: rgba(255,255,255,0.3);
+  }
+  
+  .portion {
+    
+    background-image:  url('https://cdn.pixabay.com/photo/2016/03/26/13/09/notebook-1280538_960_720.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  .portion.two {
+    background-image: url('https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_960_720.jpg');
+  }
+  .portion h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 3em;
+    padding: 2em 0;
+    margin: 0;
+    text-shadow: 0 0 10px black;
+    background: rgba(0,0,0,0.6);
+  }
+  
+  .info {
+    background: #FFFAF0;
+    color: #777;
+    padding: 3em 20%;
+  }
+  
+  .button {
+    text-align: center;
+  }
+  .button a {
+    display: inline-block;
+    border: 2px solid #777;
+    padding: .75em 1.5em;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: .15em;
+    word-spacing: .25em;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  .button a:hover {
+    color: #FFFAF0;
+    background: #777;
+  }
+  footer.info {
+    color: #FFFAF0;
+    background: #777;
+    padding: 0 auto;
+    text-align: center;
+  }
+  
+  #toTop img {
+    width: 50px;
+  }
+  #toTop img:hover {
+    cursor: pointer;
+  }
+  nav img {
+    z-index: 1000;
+    height: 2.5em;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    transition: all 0.5s linear;
+  }
+  
+  .move {
+    top: -60px;
+  }
+  
+  nav span {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+  }
+  
+  .movetext {
+    top: -30px;
+  }
+  
+  *
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: lavender;
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: center;
+}
+
+h2{
+  color:#FA056B;
+}
+
+fieldset
+{
+	background: white;
+	border: thin solid skyblue;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+form
+{
+	margin: .5em auto;
+	width: 80%;
+}
+
+input[type="button"]
+{
+	background: rgb(71, 68, 243);
+	border: thin solid transparent;
+	border-radius: .5em;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 1em;
+	padding: .5em;
+}
+
+input[type="button"]:hover
+{
+	background: skyblue;
+	border: thin solid #F60;
+	border-radius: 0;
+	color: #5CEDEB;
+}
+
+input[type="radio"], label
+{
+	cursor: pointer;
+}
+
+input[type="text"], textarea
+{
+	background: rgb(22, 152, 204), 250, 250);
+	border: thin solid skyblue;
+	border-radius: 1em;
+	color: #5CEDEB;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="text"]:focus, textarea:focus
+{
+	background: aliceblue;
+}
+
+textarea
+{
+	resize: none;
+}
+
+legend
+{
+	color: rgb(22, 152, 204), 250, 250);
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.cambio
+{
+	-ms-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+:focus
+{
+	box-shadow: .1em .1em .5em rgba(255,102,0,.5);
+	outline: thin solid #F60;
+}

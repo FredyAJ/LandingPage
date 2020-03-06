@@ -1,8 +1,9 @@
 
 footer{
-justify-content:space-between;
+text-align: center;
+justify-content:space-evenly;
 display: flex;
-
+align-content: flex-end;
 }
 a:hover{
     text-decoration: none;
@@ -117,7 +118,7 @@ a:hover{
     color: #000;
  }
 article{
-
+align-items: center;
    display: flex;
 
 }

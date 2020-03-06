@@ -1,10 +1,5 @@
 
-footer{
-text-align: center;
-justify-content:space-evenly;
-display: flex;
-align-content: flex-end;
-}
+
 a:hover{
     text-decoration: none;
  }
@@ -54,6 +49,7 @@ a:hover{
  }
 
  *{
+   font-family: 'Tinos',serif;
    font-family: 'Tinos', serif
 }
  .my-flip-image img{
@@ -117,8 +113,3 @@ a:hover{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     color: #000;
  }
-article{
-align-items: center;
-   display: flex;
-
-}

@@ -115,7 +115,9 @@ body {
   .movetext {
     top: -30px;
   }
-
+  * {
+    scroll-behavior: smooth;
+  }
 
   
   *

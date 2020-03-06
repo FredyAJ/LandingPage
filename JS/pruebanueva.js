@@ -111,7 +111,7 @@ function validarForm() {
 }
 
 function limpiarForm() {
-    alert("Limpiando");
+    
     document.getElementById("contacto-frm").reset();
 }
 
